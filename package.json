@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "eslint-config-airbnb": "^14.1.0",
+    "http-server": "^0.10.0",
     "node-sass": "^4.5.2"
   },
   "devDependencies": {
