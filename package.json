@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack -w",
+    "dev": "http-server . | webpack -w",
     "prod": "webpack -p"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint-config-airbnb": "^14.1.0",
-    "http-server": "^0.10.0",
+    "http-server": "^1.10.0",
     "node-sass": "^4.5.2"
   },
   "devDependencies": {
