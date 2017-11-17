@@ -1,0 +1,23 @@
+body {
+	margin: 100;
+	padding: 100;
+	font-family: 'Arial', serif;
+	}
+
+	.nav {
+		background-color: #26aec2;
+		color: #A9c933;
+		list-style: none;
+		text-align: center;
+		padding: 20px 0 20px 0; 
+	}
+
+	.nav > li {
+		display: inline-block;
+		padding-right: 50px;
+	}
+
+	.nav > li > a (
+		text-decoration: none; 
+
+		)
