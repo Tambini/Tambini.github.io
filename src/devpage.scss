@@ -5,7 +5,9 @@ body {
     font-family: Arial;
 
     transition: height .2s;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 footer {
   position: fixed;
@@ -17,6 +19,7 @@ footer {
   background: #26aec2;
   display: block;
   color: white;
+  margin-top: 100px;
   font-family: Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -94,36 +97,15 @@ ul.social li {
   float: left;
   margin-left: 1%;
   margin-right: 1%;
-  margin-top: 1vw;
+  margin-top: 2vw;
   margin-bottom: 1vw;
-}
-#grid:active {
-background-image: url('images/baby.jpg');
 }
 #grid {
   left-margin:30px;
   right-margin:10px;
 }
 
-input[type="checkbox"] {
-    content: url('images/breakfast.jpg');
-}
-input[type="checkbox"]:checked {
-    content: url('images/baby.jpg');
-}
-.visited {
-    background: url(images/breakfast.jpg) center center no-repeat;
-  }
 
-
-
-
-.t2 {   
-  background-image:url('images/breakfast.jpg');     
-}
-.thumbnail:focus {   
-  background-image:url('images/baby.jpg');
-}
 
 
 
