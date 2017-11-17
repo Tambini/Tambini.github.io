@@ -1,16 +1,19 @@
 
-	*{box-sizing: Border-box;}
 
-	.grid {
-		display: grid;
+   Body{
+   	background-color: #26aec2;
+    }
+
+	H1{
+		font-weight: bolder;
+		text-align: center;
+		font-size: 40px
 	}
 
-	.grid div {
-		border: 10px solid rgb(0,95,107)
-		border-radius:3px;
-		background-color: rgba(0,95,107,0.8);
-		padding: 2px
-		color: #fff;
-		font-size: 16px
 
-	}
+
+
+
+
+
+
