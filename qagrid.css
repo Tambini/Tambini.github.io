@@ -1,0 +1,16 @@
+
+	*{box-sizing: Border-box;}
+
+	.grid {
+		display: grid;
+	}
+
+	.grid div {
+		border: 10px solid rgb(0,95,107)
+		border-radius:3px;
+		background-color: rgba(0,95,107,0.8);
+		padding: 2px
+		color: #fff;
+		font-size: 16px
+
+	}

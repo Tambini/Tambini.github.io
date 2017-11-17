@@ -9,7 +9,7 @@ body {
 		color: #A9c933;
 		list-style: none;
 		text-align: center;
-		padding: 20px 0 20px 0; 
+		padding: 20px 0 20px 0;
 	}
 
 	.nav > li {
@@ -17,7 +17,7 @@ body {
 		padding-right: 50px;
 	}
 
-	.nav > li > a (
-		text-decoration: none; 
+	.nav > li > a {
+		text-decoration: none;
+	    }
 
-		)
