@@ -1,0 +1,118 @@
+@import 'colors';
+
+body {
+    background: white;
+    font-family: Arial;
+
+    transition: height .2s;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 100%;
+  padding: 20px 30px;
+  background: #26aec2;
+  display: block;
+  color: white;
+  margin-top: 100px;
+  font-family: Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+}
+
+.social {
+  margin: 10px;
+  float: left;
+  transition: all ease 0.5s; 
+  padding-left: 0;
+}
+ul.social li {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+.social img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  transition: all ease 0.5s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.social img:hover {
+  top: -10px;
+  left: -10px;
+  margin: 0px;
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+.wrapper {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  float: center;
+  display: inline-block;
+}
+.wrapper > div > p > a {
+  text-decoration: none;
+}
+#block1 {
+  float: left;
+  display: inline-block;
+  margin-right: 50px; 
+}
+#block2 {
+  float: center;
+  display: inline-block; 
+}
+#block3 {
+  float: center;
+  display: inline-block;
+  margin-left: 50px; 
+}
+.footer-address {
+  text-align: left;
+  float: right;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  color: white;
+}
+.left {
+  text-align: left;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+.thumbnail {
+  height: 31.3333333333333vw;  
+  width: 31.333333333333%;
+  background-size: cover;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+}
+#grid {
+  left-margin:30px;
+  right-margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}

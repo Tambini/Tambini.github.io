@@ -8,9 +8,10 @@ body {
 		background-color: #26aec2;
 		color: #A9c933;
 		list-style: none;
+
 		text-align: left;
 		padding: 20px 0 20px 0; 
-	}
+
 
 	.nav > li {
 		display: inline-block;
@@ -20,6 +21,9 @@ body {
 	}
 
 	.nav > li > a {
+
 		text-decoration: none; 
 
 		}
+
+	    
