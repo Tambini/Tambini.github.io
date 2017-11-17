@@ -23,9 +23,7 @@ footer {
 .social {
   margin: 10px;
   float: left;
-
-  transition: all ease 0.5s;
-
+  transition: all ease 0.5s; 
   padding-left: 0;
 }
 ul.social li {
@@ -35,10 +33,10 @@ ul.social li {
 }
 .social img {
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
-  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
-  transition: all ease 0.2s;
+  height: 48px;
+  width: 48px;
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+  transition: all ease 0.5s;
   position: relative;
   top: 0;
   left: 0;
@@ -47,7 +45,7 @@ ul.social li {
   top: -10px;
   left: -10px;
   margin: 0px;
-  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.2);
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
 }
 .wrapper {
   width: 40%;
@@ -57,20 +55,22 @@ ul.social li {
   float: center;
   display: inline-block;
 }
+.wrapper > div > p > a {
+  text-decoration: none;
+}
 #block1 {
   float: left;
   display: inline-block;
-  margin-right: 50px;
-  text-decoration: none;
+  margin-right: 50px; 
 }
 #block2 {
   float: center;
-  display: inline-block;
+  display: inline-block; 
 }
 #block3 {
   float: center;
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 50px; 
 }
 .footer-address {
   text-align: left;
@@ -86,4 +86,51 @@ ul.social li {
   display: inline-block;
   width: 30%;
   height: 100%;
+}
+.thumbnail {
+  height: 31.3333333333333vw;  
+  width: 31.333333333333%;
+  background-size: cover;
+  float: left;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+#grid:active {
+background-image: url('images/baby.jpg');
+}
+#grid {
+  left-margin:30px;
+  right-margin:10px;
+}
+
+input[type="checkbox"] {
+    content: url('images/breakfast.jpg');
+}
+input[type="checkbox"]:checked {
+    content: url('images/baby.jpg');
+}
+.visited {
+    background: url(images/breakfast.jpg) center center no-repeat;
+  }
+
+
+
+
+.t2 {   
+  background-image:url('images/breakfast.jpg');     
+}
+.thumbnail:focus {   
+  background-image:url('images/baby.jpg');
+}
+
+
+
+
+
+
+
+
+
 }
