@@ -1,13 +1,33 @@
 @import 'colors';
+head {
+  font-family: 'Arial', serif;
+  width: 100%;
+  }
 
+  .nav {
+    background-color: #26aec2;
+    color: #A9c933;
+    list-style: none;
+    text-align: left;
+    padding: 40px 0 40px 0; 
+    margin: 0;
+  }
+  .nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+  }
+  .nav > li > a {
+    text-decoration: none; 
+    }
 body {
     background: white;
     font-family: Arial;
-
     transition: height .2s;
-    margin-top: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0;
+    top: 0;
+    
 }
 footer {
   position: fixed;
@@ -19,7 +39,7 @@ footer {
   background: #26aec2;
   display: block;
   color: white;
-  margin-top: 100px;
+  margin-top: 200px;
   font-family: Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
 }
 
@@ -92,7 +112,7 @@ ul.social li {
 }
 .thumbnail {
   height: 31.3333333333333vw;  
-  width: 31.333333333333%;
+  width: 31.3333333333333%;
   background-size: cover;
   float: left;
   margin-left: 1%;
@@ -101,8 +121,11 @@ ul.social li {
   margin-bottom: 1vw;
 }
 #grid {
-  left-margin:30px;
-  right-margin:10px;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 250px;
+  overflow: auto;
 }
 
 

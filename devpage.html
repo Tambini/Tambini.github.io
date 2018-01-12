@@ -1,36 +1,38 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="QA-Sandbox">
-  <meta name="author" content="C&T">
-
-  <link rel="stylesheet" href="/dist/global.css">
+  <link rel="stylesheet">
+  <type="text/css">
+  <script  language="javascript" src="./scripts/main.js"></script>
+  <script src="./dist/common.js"></script>
+  <script src="./dist/global.bundle.js"></script>
 </head>
-
 <body>
-          <script src="/dist/common.js"></script>
-    <script src="/dist/global.bundle.js"></script>
+  <ul class="nav">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">QA</a></li>
+  <li><a href="#">Tech Directors</a></li>
+  <li><a href="#">Developers</a></li>
+  <li><a href="#">About Us</a></li>
+  </ul>
+
   <section id="grid">
-    <div class="thumbnail t1" href="#" onclick="class='visited'" style="background-image: url('images/Devs/Kyle.png');"></div>
-    <button class="thumbnail t2" style="background-image: url('images/Devs/nate_baby_2.jpg');"></button>
-    <div class="thumbnail" style="background-image: url('images/Devs/aaron.jpg');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Chris_Anderson.png');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/David.Mendez.png');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Eric.jpg');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Ewen.jpg');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Juan.png');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Kiril.jpg');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Richard Adem.png');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Shoma.png');"></div>
-    <div class="thumbnail" style="background-image: url('images/Devs/Walt.jpg');"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Kyle.png')"; id="kyle" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/nate_baby_2.jpg');" id="nate" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/aaron.jpg');" id="aaron" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Chris_Anderson.png');" id="chris" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/David.Mendez.png');" id="david" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Eric.jpg');" id="eric" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Ewen.jpg');" id="ewen" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Juan.png');" id="juan" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Kiril.jpg');" id="kiril" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Richard Adem.png');" id="rich" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Shoma.png');" id="shoma" onclick="changeImage(this)"></div>
+    <div class="thumbnail" style="background-image: url('images/Devs/Walt.jpg');" id="walt" onclick="changeImage(this)"></div>
   </section>
 
-</body>
-<footer>
+  <footer>
 <link rel = "stylesheet"
    type = "text/css"
    href = "src/devpage.scss"/>
@@ -39,17 +41,17 @@
  <ul class="social">
   <li>
    <a href="https://twitter.com/perfectbabies?lang=en" target="_blank">
-      <img title="Twitter" alt="Twitter" src="images/twitter.svg" width="48" height="48" />
+      <img title="Twitter" alt="Twitter" src="images/Footer/twitter.svg" width="48" height="48" />
     </a>
   </li>
   <li>
     <a href="https://www.facebook.com/Cute.Babies.EG/" target="_blank">
-      <img title="Facebook" alt="Facebook" src="images/facebook.svg" width="48" height="48" />
+      <img title="Facebook" alt="Facebook" src="images/Footer/facebook.svg" width="48" height="48" />
     </a>
   </li>
   <li>
     <a href="https://www.linkedin.com/company-beta/7798104/" target="_blank">
-      <img title="LinkedIn" alt="LinkedIn" src="images/pinterest.svg" width="48" height="48" />
+      <img title="LinkedIn" alt="LinkedIn" src="images/Footer/pinterest.svg" width="48" height="48" />
     </a>
   </li>
  </ul>
@@ -77,4 +79,5 @@
     <p> This is a fake contact<br/>123 Abc Rd<br/> Faketown NY 10101</p>
 </div>
 </footer>
+</body>
 </html>
