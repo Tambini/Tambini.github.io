@@ -54,12 +54,12 @@ function changeImage(theElement) {
         }
 	}
 	if (clickedName === 'eric') {
-		if (theElement.style.backgroundImage === 'url("images/Devs/Eric.jpg")') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/Eric.jpeg")') {
             theElement.style.backgroundImage = 'url("images/Devs/Adults/Eric Chapman.jpg")';
             return;
         }
         if (theElement.style.backgroundImage === 'url("images/Devs/Adults/Eric Chapman.jpg")') {
-            theElement.style.backgroundImage = 'url("images/Devs/Eric.jpg")';
+            theElement.style.backgroundImage = 'url("images/Devs/Eric.jpeg")';
             return;
         }
 	}
@@ -85,10 +85,10 @@ function changeImage(theElement) {
 	}
 	if (clickedName === 'kiril') {
 		if (theElement.style.backgroundImage === 'url("images/Devs/Kiril.jpg")') {
-            theElement.style.backgroundImage = 'url("images/Devs/Adults/Kiril.jpg")';
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/Kiril.png")';
             return;
         }
-        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/Kiril.jpg")') {
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/Kiril.png")') {
             theElement.style.backgroundImage = 'url("images/Devs/Kiril.jpg")';
             return;
         }
