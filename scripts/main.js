@@ -123,4 +123,34 @@ function changeImage(theElement) {
             return;
         }
 	}
+	if (clickedName === 'jenn') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/Jenn.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/Jenn.jpg")';
+            return;
+        }
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/Jenn.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Jenn.jpg")';
+            return;
+        }
+	}
+	if (clickedName === 'whitely') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/whitely.png")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/whitely.jpg")';
+            return;
+        }
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/whitely.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/whitely.png")';
+            return;
+        }
+	}
+	if (clickedName === 'duke') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/duke.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/Duke.jpg")';
+            return;
+        }
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/Duke.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/duke.jpg")';
+            return;
+        }
+	}
 }

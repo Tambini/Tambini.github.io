@@ -1,6 +1,6 @@
 @import 'colors';
 head {
-  font-family: 'Arial', serif;
+  font-family: 'Merriweather', serif;
   width: 100%;
   }
 
@@ -11,6 +11,7 @@ head {
     text-align: left;
     padding: 40px 0 40px 0; 
     margin: 0;
+    font-family: 'Roboto', sans-serif;
   }
   .nav > li {
     display: inline-block;
@@ -23,15 +24,14 @@ head {
     }
 body {
     background: white;
-    font-family: Arial;
+    font-family: 'Merriweather', serif;
     transition: height .2s;
-    margin: 0;
-    top: 0;
-    
+    margin: 0;    
 }
 .headline {
   padding-left: 50px;
-  color: #26aec2
+  color: #26aec2;
+  margin-top: 50px;
 }
 footer {
   position: static;
@@ -45,7 +45,8 @@ footer {
   color: white;
   margin: 50px 0px 0px;
   overflow: auto;
-  font-family: Optima, ‘Lucida Grande’, ‘Lucida Sans Unicode’, Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
 }
 
 .social {
@@ -86,7 +87,7 @@ ul.social li {
 }
 .wrapper > div > p > a {
   text-decoration: none;
-  color: #E61191;
+  color: #2A345B;
   font-weight: bold;
 }
 .wrapper > div > p > a:hover {
@@ -97,15 +98,21 @@ ul.social li {
   float: left;
   display: inline-block;
   margin-right: 50px; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
 }
 #block2 {
   float: center;
   display: inline-block; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
 }
 #block3 {
   float: center;
   display: inline-block;
   margin-left: 50px; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
 }
 .footer-address {
   text-align: left;
@@ -114,7 +121,9 @@ ul.social li {
   width: 20%;
   height: 100%;
   color: white;
-
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
+  font-kerning: 
 }
 .left {
   text-align: left;
@@ -138,21 +147,20 @@ ul.social li {
   outline: #26aec2 solid 10px;
 }
 #grid {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 50px;
   overflow: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
+h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 18.72px;
 }
+h1 {
+  border-bottom: #D91F89 solid 2px;
+  margin-right: 80px;
+}
+
+
