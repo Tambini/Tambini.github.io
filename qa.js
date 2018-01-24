@@ -2,49 +2,36 @@ function change(){
 	var image = document.getElementById('adam');
 	image.src = "adamadult.jpg";
 
-
 	var image = document.getElementById('carolyn');
-	image.src = "carolynadult.jpg";
-
-
+	image.src = "/qa/adults/carolyn.jpg";
 
 	var image = document.getElementById('cassie');
-	image.src = "cassiedult.jpg";
-
+	image.src = "/qa/adults/cassie.jpg";
 
 	var image = document.getElementById('gina');
-	image.src = "ginaadult.jpg";
-
+	image.src = "qa/adults/gina.jpg";
 
 	var image = document.getElementById('james');
-	image.src = "jamesadult.jpg";
-
+	image.src = "/qa/adults/james.jpg";
 
 	var image = document.getElementById('johnny');
-	image.src = "johnnyadult.jpg";
-
+	image.src = "/qa/adults/johnny.jpg";
 
 	var image = document.getElementById('megan');
-	image.src = "meganadult.jpg";
-
+	image.src = "/qa/adults/megan.jpg";
 
 	var image = document.getElementById('pete');
-	image.src = "peteadult.jpg";
-
+	image.src = "/qa/adults/pete.jpg";
 
 	var image = document.getElementById('sara');
-	image.src = "saraadult.jpg";
-
+	image.src = "/qa/adults/sara.jpg";
 
 	var image = document.getElementById('sammy');
-	image.src = "sammyadult.jpg";
-
+	image.src = "/qa/adults/sammy.jpg";
 
 	var image = document.getElementById('jenny');
-	image.src = "jennydult.jpg";
-
+	image.src = "/qa/adults/jenny.jpg";
 
 	var image = document.getElementById('alex');
 	image.src = "alexadult.jpg";
-
 }

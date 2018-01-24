@@ -35,11 +35,11 @@ h1{
 }
 
 .thumbnails{
-	border: 5px solid #26aec2;
+	border: 5px solid #26aec2 ;
 }
 
 .thumbnails:hover{
-	border:5px solid black ;
+	border:5px solid #A9C933;
 
 }
 
