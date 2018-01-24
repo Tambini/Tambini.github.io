@@ -1,0 +1,7 @@
+.responsive {
+	background: black;
+	overflow: auto;
+	padding: 6px;
+	float left;
+	width:33.333%;
+}
