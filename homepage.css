@@ -1,0 +1,136 @@
+@import 'colors';
+
+body {
+    background: white;
+    font-family: Arial;
+    margin: 0;
+}
+.nav {
+    background-color: #26aec2;
+    color: #A9c933;
+    list-style: none;
+    text-align: left;
+    padding: 40px 0 40px 0; 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+}
+.nav > li > a {
+    text-decoration: none; 
+}
+.headline {
+  padding-left: 50px;
+  color: #26aec2;
+  margin-top: 50px;
+}
+h1 {
+  border-bottom: #D91F89 solid 2px;
+  margin-right: 80px;
+}
+footer {
+  position: static;
+  bottom: 0;
+  left:0;
+  right: 0;
+  width: 100%;
+  padding: 40px 0px 80px 0px;
+  background: #26aec2;
+  box-shadow: 0px 500px 0px 500px #26aec2;
+  color: white;
+  margin: 50px 0px 0px;
+  overflow: auto;
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+.social {
+  margin-top: 0px;
+  float: left;
+  transition: all ease 0.5s; 
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+ul.social li {
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+}
+.social img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.8);
+  transition: all ease 0.5s;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.social img:hover {
+  top: -10px;
+  left: -10px;
+  margin: 0px;
+  box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+.wrapper {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  float: center;
+  display: inline-block;
+}
+.wrapper > div > p > a {
+  text-decoration: none;
+  color: #2A345B;
+  font-weight: bold;
+}
+.wrapper > div > p > a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+#block1 {
+  float: left;
+  display: inline-block;
+  margin-right: 50px; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
+}
+#block2 {
+  float: center;
+  display: inline-block; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
+}
+#block3 {
+  float: center;
+  display: inline-block;
+  margin-left: 50px; 
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
+}
+.footer-address {
+  text-align: left;
+  float: right;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  font-size: 18px;
+}
+.left {
+  text-align: left;
+  float: left;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  padding-left: 50px;
+  }
+  .info {
+    padding-left: 100px;
+  }
