@@ -1,4 +1,6 @@
-
+ul {
+  font-family: "Merriweather", serif;
+}
 
 h1{
 	font-size: 50px;
@@ -27,7 +29,6 @@ h1{
     }
 
 .grid {
-	background: white;
 	overflow: auto;
   padding: 10px;
 	float: left;
@@ -35,7 +36,7 @@ h1{
 }
 
 .thumbnails{
-	border: 5px solid #26aec2 ;
+	border: 5px solid #26aec2;
 }
 
 .thumbnails:hover{
@@ -148,7 +149,6 @@ ul.social li {
   color: white;
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
-  font-kerning:
 }
 .left {
   text-align: left;

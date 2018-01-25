@@ -1,10 +1,11 @@
 @import 'colors';
-head {
-  font-family: 'Merriweather', serif;
-  width: 100%;
-  }
 
-  .nav {
+body {
+    background: white;
+    font-family: Arial;
+    margin: 0;
+}
+.nav {
     background-color: #26aec2;
     color: #A9c933;
     list-style: none;
@@ -12,26 +13,34 @@ head {
     padding: 40px 0 40px 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-  }
-  .nav > li {
+}
+.nav > li {
     display: inline-block;
     padding-right: 50px;
     padding-left: 50px;
     text-decoration: none;
-  }
-  .nav > li > a {
+}
+.nav > li > a {
     text-decoration: none;
-    }
-body {
-    background: white;
-    font-family: 'Merriweather', serif;
-    transition: height .2s;
-    margin: 0;
 }
 .headline {
   padding-left: 50px;
   color: #26aec2;
   margin-top: 50px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #A9C933;
+}
+img:hover{
+  border:5px solid #26aec2;
+}
+
+h1 {
+  border-bottom: #D91F89 solid 2px;
+  margin-right: 80px;
 }
 footer {
   position: static;
@@ -131,35 +140,7 @@ ul.social li {
   width: 30%;
   height: 100%;
   padding-left: 50px;
-}
-.thumbnail {
-  height: 31.3333333333333vw;
-  width: 31.3333333333333%;
-  background-size: cover;
-  float: left;
-  margin-left: 1%;
-  margin-right: 1%;
-  margin-top: 2vw;
-  margin-bottom: 1vw;
-}
-.thumbnail:hover {
-  outline: #26aec2 solid 10px;
-}
-#grid {
-  margin-top: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 50px;
-  overflow: auto;
-}
-h3 {
-  font-family: 'Merriweather', serif;
-  font-weight: bold;
-  font-size: 18.72px;
-}
-h1 {
-  border-bottom: #D91F89 solid 2px;
-  margin-right: 80px;
-}
-
-
+  }
+  .info {
+    padding-left: 100px;
+  }
