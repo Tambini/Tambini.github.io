@@ -153,4 +153,23 @@ function changeImage(theElement) {
             return;
         }
 	}
+	if (clickedName === 'joseph') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/joseph.png")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/joseph.jpg")';
+            return;
+        }
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/joseph.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/joseph.png")';
+            return;
+        }
+	}if (clickedName === 'lacy') {
+		if (theElement.style.backgroundImage === 'url("images/Devs/Lacy.png")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Adults/lacy.jpg")';
+            return;
+        }
+        if (theElement.style.backgroundImage === 'url("images/Devs/Adults/lacy.jpg")') {
+            theElement.style.backgroundImage = 'url("images/Devs/Lacy.png")';
+            return;
+        }
+	}
 }
