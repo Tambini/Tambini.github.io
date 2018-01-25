@@ -9,7 +9,7 @@ head {
     color: #A9c933;
     list-style: none;
     text-align: left;
-    padding: 40px 0 40px 0; 
+    padding: 40px 0 40px 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
   }
@@ -20,13 +20,13 @@ head {
     text-decoration: none;
   }
   .nav > li > a {
-    text-decoration: none; 
+    text-decoration: none;
     }
 body {
     background: white;
     font-family: 'Merriweather', serif;
     transition: height .2s;
-    margin: 0;    
+    margin: 0;
 }
 .headline {
   padding-left: 50px;
@@ -52,7 +52,7 @@ footer {
 .social {
   margin-top: 0px;
   float: left;
-  transition: all ease 0.5s; 
+  transition: all ease 0.5s;
   padding-left: 0;
   margin-bottom: 20px;
 }
@@ -97,20 +97,20 @@ ul.social li {
 #block1 {
   float: left;
   display: inline-block;
-  margin-right: 50px; 
+  margin-right: 50px;
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
 }
 #block2 {
   float: center;
-  display: inline-block; 
+  display: inline-block;
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
 }
 #block3 {
   float: center;
   display: inline-block;
-  margin-left: 50px; 
+  margin-left: 50px;
   font-family: 'Slabo 27px', serif;
   font-size: 18px;
 }
@@ -133,7 +133,7 @@ ul.social li {
   padding-left: 50px;
 }
 .thumbnail {
-  height: 31.3333333333333vw;  
+  height: 31.3333333333333vw;
   width: 31.3333333333333%;
   background-size: cover;
   float: left;
