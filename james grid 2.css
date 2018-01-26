@@ -3,7 +3,8 @@
     	color: #A9c933;
     	list-style: none;
     	text-align: left;
-    	padding: 40px 0 40px 0; 
+    	font-family: Merriweather;
+    	padding: 40px 0 40px 0;
     	margin: 0;
   		}
   		.nav > li {
@@ -13,7 +14,7 @@
     	text-decoration: none;
   		}
   		.nav > li > a {
-   		 text-decoration: none; 
+   		 text-decoration: none;
    		 }
 
 		img
